@@ -14,7 +14,7 @@
 
 --!nocheck
 
-local SRC_URL = "https://raw.githubusercontent.com/YOUR_NAME/XexerUI/main/XexerUI/source.luau"
+local SRC_URL = "https://raw.githubusercontent.com/Xexerhub/Xerxer-Ui/refs/heads/main/source.luau"
 
 -- Load the library. (If you already have `XexerUI` in scope, delete these 2 lines.)
 local ok, XexerUI = pcall(function()
