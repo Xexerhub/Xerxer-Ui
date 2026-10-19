@@ -1,7 +1,7 @@
 --!nocheck
 --[[  XexerUI  -  monochrome (black / white) UI library for Roblox (single file).
 
-      local UI = loadstring(game:HttpGet("<raw-url-of-this-file>"))()
+      local UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/Xexerhub/Xerxer-Ui/refs/heads/main/source.luau"))()
       local Window = UI:CreateWindow({ Title = "My Hub", Version = "v1.0", Author = "me" })
       local tab = Window:Tab({ Title = "Main", Icon = "zap" })
       tab:Section({ Title = "General" }):Toggle({ Title = "Example", Default = false, Callback = print })
